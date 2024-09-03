@@ -9,7 +9,7 @@ function toggleFullScreen() {
 }
 
 addEventListener('dblclick' , () =>{
-    toggleFullScreen()
+    // toggleFullScreen()
 })
 
 
@@ -106,7 +106,7 @@ __SYD.threeDButton = () =>{
                             __v['main_video'].play();
                     // }, 1000);
 
-                      toggleFullScreen()
+                      // toggleFullScreen()
                 }
             }
         }
