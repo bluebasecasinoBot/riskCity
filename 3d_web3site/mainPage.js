@@ -93,7 +93,7 @@ __SYD.main_front = () =>{
                             autoplay:true,
                         },
                         [
-                            __c('source',{},[],{type:'vid_src'})
+                            __c('source',{src:'./memeVideo.mp4'},[],{type:'vid_src'})
                         ],
                         {
                             events:{
