@@ -90,7 +90,7 @@ __SYD.main_front = () =>{
                         'video',
                         {
                             style:'width:70%;height:auto;z-index:500',//height:calc(100% - 80px);
-                            autoplay:true,
+                            autoplay:true,preload:'auto'
                         },
                         [
                             __c('source',{},[],{type:'vid_src'})
