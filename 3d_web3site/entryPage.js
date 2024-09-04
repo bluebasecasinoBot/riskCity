@@ -45,8 +45,8 @@ __SYD.entry_floor = () =>{
 __SYD.threeDButton = () =>{
     return __c(
         'div',
-        {
-            style:`height:50px;width:125px;position:absolute;top:60%;left:50%;transform-style:preserve-3d;cursor:pointer;transform:translateZ(${__p(['threeDButton','mouseDown'],'100px')}) translate(-50% , -50%) rotateY(${__p(['threeDButton','rotateY'],0)}deg) translateY(${__p(['threeDButton','z_trans']) ? '20px' : '0px'});transition:transform ease 1s;`,
+        {//__p(['threeDButton','mouseDown'],'100px')
+            style:`height:50px;width:125px;position:absolute;top:60%;left:50%;transform-style:preserve-3d;cursor:pointer;transform:translateZ(${'70px'}) translate(-50% , -50%) rotateY(${__p(['threeDButton','rotateY'],0)}deg) translateY(${__p(['threeDButton','z_trans']) ? '20px' : '0px'});transition:transform ease 1s;`,
             class:'button_D',
         },
         [
