@@ -4,7 +4,7 @@ __SYD.mainPage = () =>{
     return __c(
         'div',
         {
-            style:__sC['mainPage']([{method:'add' , style:{minWidth:'1000px',maxWidth:'1000px',flexDirection:'column' ,justifyContent:'flex-start' ,perspective:'900px' , zIndex:__p(['threeDContainer','current'],true) ? '100' : '200' , opacity:__p(['threeDContainer','current'],true) ? '0' : '1'}},{method:'remove' , style:['transformStyle','background']}]),
+            style:__sC['mainPage']([{method:'add' , style:{minWidth:'1000px',maxWidth:'1000px',flexDirection:'column' ,justifyContent:'flex-start' ,perspective:'900px' , zIndex:__p(['threeDContainer','current'],true) ? '100' : '200' , opacity:__p(['threeDContainer','current'],true) ? '1' : '1'}},{method:'remove' , style:['transformStyle','background']}]),
             class:'city_page'
         },
         [
@@ -89,11 +89,11 @@ __SYD.main_front = () =>{
                     __c(
                         'video',
                         {
-                            style:'max-width:70%;width:70%;z-index:500',//height:calc(100% - 80px);
+                            style:'width:70%;height:auto;z-index:500',//height:calc(100% - 80px);
                             autoplay:true,
                         },
                         [
-                            __c('source',{src:'./memeVideo.mp4'},[],{type:'vid_src'})
+                            __c('source',{},[],{type:'vid_src'})
                         ],
                         {
                             events:{
