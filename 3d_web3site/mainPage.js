@@ -89,7 +89,7 @@ __SYD.main_front = () =>{
                     __c(
                         'video',
                         {
-                            style:'width:70%;z-index:500',//height:calc(100% - 80px);
+                            style:'max-width:70%;width:70%;z-index:500',//height:calc(100% - 80px);
                             autoplay:true,
                         },
                         [
