@@ -1,15 +1,6 @@
 import { __SYD, __c, __g, __p, __sC, __u, __v } from "./sydneyLib/sydneyDom.js";
 
-function toggleFullScreen() {
-    if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen();
-    } else if (document.exitFullscreen) {
-      document.exitFullscreen();
-    }
-}
-
 addEventListener('dblclick' , () =>{
-    // toggleFullScreen()
 })
 
 
@@ -106,7 +97,6 @@ __SYD.threeDButton = () =>{
                             __v['main_video'].play();
                     // }, 1000);
 
-                      // toggleFullScreen()
                 }
             }
         }
