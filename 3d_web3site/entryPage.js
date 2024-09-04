@@ -7,7 +7,7 @@ __SYD.entryPage = () =>{
     return __c(
         'div',
         {
-            style:__sC['entryPage']({method:'add' , style:{backgroundColor:'#ac7468',zIndex:__p(['threeDContainer','current'],true) ? '200' : '100',opacity:__p(['threeDContainer','current'],true) ? '1' : '0'}}),
+            style:__sC['entryPage']({method:'add' , style:{backgroundColor:'#ac7468',zIndex:__p(['threeDContainer','current'],true) ? '200' : '100',display:__p(['threeDContainer','current'],true) ? 'flex' : 'none'}}),
             // onmousedown:'btn_down(e)',
             // onmouseup:'btn_up()',
             // onmousemove:'btn_move()',
