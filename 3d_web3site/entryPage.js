@@ -91,10 +91,10 @@ __SYD.threeDButton = () =>{
                     __u('threeDContainer' , {type:"a" , value:state});
                     __v['main_video'].loop = true;
 
-                    // setTimeout(() => {
+                    setTimeout(() => {
                         // __v['main_video'].src = './memeVideo.mp4'
                             __v['main_video'].play();
-                    // }, 1000);
+                    }, 1000);
 
                 }
             }
