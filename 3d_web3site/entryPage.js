@@ -1,14 +1,13 @@
 import { __SYD, __c, __g, __p, __sC, __u, __v } from "./sydneyLib/sydneyDom.js";
 
-addEventListener('dblclick' , () =>{
-})
+
 
 
 __SYD.entryPage = () =>{
     return __c(
         'div',
         {
-            style:__sC['entryPage']({method:'add' , style:{zIndex:__p(['threeDContainer','current'],true) ? '200' : '100',opacity:__p(['threeDContainer','current'],true) ? '1' : '0'}}),
+            style:__sC['entryPage']({method:'add' , style:{backgroundColor:'#ac7468',zIndex:__p(['threeDContainer','current'],true) ? '200' : '100',opacity:__p(['threeDContainer','current'],true) ? '1' : '1'}}),
             // onmousedown:'btn_down(e)',
             // onmouseup:'btn_up()',
             // onmousemove:'btn_move()',
@@ -92,10 +91,10 @@ __SYD.threeDButton = () =>{
                     __u('threeDContainer' , {type:"a" , value:state});
                     __v['main_video'].loop = true;
 
-                    // setTimeout(() => {
-                        // __v['main_video'].src = './memeVideo.mp4'
+                    setTimeout(() => {
+                        __v['main_video'].src = './memeVideo.mp4'
                             __v['main_video'].play();
-                    // }, 1000);
+                    }, 1000);
 
                 }
             }
